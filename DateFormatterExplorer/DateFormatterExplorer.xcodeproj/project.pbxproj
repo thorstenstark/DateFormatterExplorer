@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75065E2E2403071E008C5C1C /* DateComponentsFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75065E2D2403071E008C5C1C /* DateComponentsFormatterExtensions.swift */; };
+		75065E30240310AC008C5C1C /* MultipleSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75065E2F240310AC008C5C1C /* MultipleSelectionList.swift */; };
+		7589F6E123F72C51001A86A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589F6E023F72C51001A86A1 /* AppDelegate.swift */; };
+		7589F6E323F72C51001A86A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589F6E223F72C51001A86A1 /* ContentView.swift */; };
+		7589F6E523F72C53001A86A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7589F6E423F72C53001A86A1 /* Assets.xcassets */; };
+		7589F6E823F72C53001A86A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7589F6E723F72C53001A86A1 /* Preview Assets.xcassets */; };
+		7589F6EB23F72C53001A86A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7589F6E923F72C53001A86A1 /* Main.storyboard */; };
+		7589F6F723F72C53001A86A1 /* DateFormatterExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589F6F623F72C53001A86A1 /* DateFormatterExplorerTests.swift */; };
+		75A23576249821500076E353 /* MultipleSelectionCalenadarUnitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A23575249821500076E353 /* MultipleSelectionCalenadarUnitList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7589F6F323F72C53001A86A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7589F6D523F72C51001A86A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7589F6DC23F72C51001A86A1;
+			remoteInfo = DateFormatterExplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75065E2D2403071E008C5C1C /* DateComponentsFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentsFormatterExtensions.swift; sourceTree = "<group>"; };
+		75065E2F240310AC008C5C1C /* MultipleSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionList.swift; sourceTree = "<group>"; };
+		7589F6DD23F72C51001A86A1 /* DateFormatterExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateFormatterExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7589F6E023F72C51001A86A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7589F6E223F72C51001A86A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7589F6E423F72C53001A86A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7589F6E723F72C53001A86A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7589F6EA23F72C53001A86A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7589F6EC23F72C53001A86A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7589F6ED23F72C53001A86A1 /* DateFormatterExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DateFormatterExplorer.entitlements; sourceTree = "<group>"; };
+		7589F6F223F72C53001A86A1 /* DateFormatterExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateFormatterExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7589F6F623F72C53001A86A1 /* DateFormatterExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExplorerTests.swift; sourceTree = "<group>"; };
+		7589F6F823F72C53001A86A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A23575249821500076E353 /* MultipleSelectionCalenadarUnitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionCalenadarUnitList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7589F6DA23F72C51001A86A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7589F6EF23F72C53001A86A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75065E3124031390008C5C1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7589F6E223F72C51001A86A1 /* ContentView.swift */,
+				75065E2F240310AC008C5C1C /* MultipleSelectionList.swift */,
+				75A23575249821500076E353 /* MultipleSelectionCalenadarUnitList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7589F6D423F72C51001A86A1 = {
+			isa = PBXGroup;
+			children = (
+				7589F6DF23F72C51001A86A1 /* DateFormatterExplorer */,
+				7589F6F523F72C53001A86A1 /* DateFormatterExplorerTests */,
+				7589F6DE23F72C51001A86A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7589F6DE23F72C51001A86A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7589F6DD23F72C51001A86A1 /* DateFormatterExplorer.app */,
+				7589F6F223F72C53001A86A1 /* DateFormatterExplorerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7589F6DF23F72C51001A86A1 /* DateFormatterExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				7589F6E023F72C51001A86A1 /* AppDelegate.swift */,
+				75065E2D2403071E008C5C1C /* DateComponentsFormatterExtensions.swift */,
+				75065E3124031390008C5C1C /* Views */,
+				7589F6E423F72C53001A86A1 /* Assets.xcassets */,
+				7589F6E923F72C53001A86A1 /* Main.storyboard */,
+				7589F6EC23F72C53001A86A1 /* Info.plist */,
+				7589F6ED23F72C53001A86A1 /* DateFormatterExplorer.entitlements */,
+				7589F6E623F72C53001A86A1 /* Preview Content */,
+			);
+			path = DateFormatterExplorer;
+			sourceTree = "<group>";
+		};
+		7589F6E623F72C53001A86A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7589F6E723F72C53001A86A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7589F6F523F72C53001A86A1 /* DateFormatterExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7589F6F623F72C53001A86A1 /* DateFormatterExplorerTests.swift */,
+				7589F6F823F72C53001A86A1 /* Info.plist */,
+			);
+			path = DateFormatterExplorerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7589F6DC23F72C51001A86A1 /* DateFormatterExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7589F6FB23F72C53001A86A1 /* Build configuration list for PBXNativeTarget "DateFormatterExplorer" */;
+			buildPhases = (
+				7589F6D923F72C51001A86A1 /* Sources */,
+				7589F6DA23F72C51001A86A1 /* Frameworks */,
+				7589F6DB23F72C51001A86A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateFormatterExplorer;
+			productName = DateFormatterExplorer;
+			productReference = 7589F6DD23F72C51001A86A1 /* DateFormatterExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7589F6F123F72C53001A86A1 /* DateFormatterExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7589F6FE23F72C53001A86A1 /* Build configuration list for PBXNativeTarget "DateFormatterExplorerTests" */;
+			buildPhases = (
+				7589F6EE23F72C53001A86A1 /* Sources */,
+				7589F6EF23F72C53001A86A1 /* Frameworks */,
+				7589F6F023F72C53001A86A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7589F6F423F72C53001A86A1 /* PBXTargetDependency */,
+			);
+			name = DateFormatterExplorerTests;
+			productName = DateFormatterExplorerTests;
+			productReference = 7589F6F223F72C53001A86A1 /* DateFormatterExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7589F6D523F72C51001A86A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Thorsten Stark";
+				TargetAttributes = {
+					7589F6DC23F72C51001A86A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7589F6F123F72C53001A86A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7589F6DC23F72C51001A86A1;
+					};
+				};
+			};
+			buildConfigurationList = 7589F6D823F72C51001A86A1 /* Build configuration list for PBXProject "DateFormatterExplorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7589F6D423F72C51001A86A1;
+			productRefGroup = 7589F6DE23F72C51001A86A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7589F6DC23F72C51001A86A1 /* DateFormatterExplorer */,
+				7589F6F123F72C53001A86A1 /* DateFormatterExplorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7589F6DB23F72C51001A86A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7589F6EB23F72C53001A86A1 /* Main.storyboard in Resources */,
+				7589F6E823F72C53001A86A1 /* Preview Assets.xcassets in Resources */,
+				7589F6E523F72C53001A86A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7589F6F023F72C53001A86A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7589F6D923F72C51001A86A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A23576249821500076E353 /* MultipleSelectionCalenadarUnitList.swift in Sources */,
+				75065E30240310AC008C5C1C /* MultipleSelectionList.swift in Sources */,
+				75065E2E2403071E008C5C1C /* DateComponentsFormatterExtensions.swift in Sources */,
+				7589F6E323F72C51001A86A1 /* ContentView.swift in Sources */,
+				7589F6E123F72C51001A86A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7589F6EE23F72C53001A86A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7589F6F723F72C53001A86A1 /* DateFormatterExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7589F6F423F72C53001A86A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7589F6DC23F72C51001A86A1 /* DateFormatterExplorer */;
+			targetProxy = 7589F6F323F72C53001A86A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7589F6E923F72C53001A86A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7589F6EA23F72C53001A86A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7589F6F923F72C53001A86A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7589F6FA23F72C53001A86A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7589F6FC23F72C53001A86A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DateFormatterExplorer/DateFormatterExplorer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DateFormatterExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9722Q6CT8T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DateFormatterExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thorsten-stark.DateFormatterExplorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7589F6FD23F72C53001A86A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DateFormatterExplorer/DateFormatterExplorer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DateFormatterExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9722Q6CT8T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DateFormatterExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thorsten-stark.DateFormatterExplorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7589F6FF23F72C53001A86A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9722Q6CT8T;
+				INFOPLIST_FILE = DateFormatterExplorerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thorsten-stark.DateFormatterExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateFormatterExplorer.app/Contents/MacOS/DateFormatterExplorer";
+			};
+			name = Debug;
+		};
+		7589F70023F72C53001A86A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9722Q6CT8T;
+				INFOPLIST_FILE = DateFormatterExplorerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thorsten-stark.DateFormatterExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateFormatterExplorer.app/Contents/MacOS/DateFormatterExplorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7589F6D823F72C51001A86A1 /* Build configuration list for PBXProject "DateFormatterExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7589F6F923F72C53001A86A1 /* Debug */,
+				7589F6FA23F72C53001A86A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7589F6FB23F72C53001A86A1 /* Build configuration list for PBXNativeTarget "DateFormatterExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7589F6FC23F72C53001A86A1 /* Debug */,
+				7589F6FD23F72C53001A86A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7589F6FE23F72C53001A86A1 /* Build configuration list for PBXNativeTarget "DateFormatterExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7589F6FF23F72C53001A86A1 /* Debug */,
+				7589F70023F72C53001A86A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7589F6D523F72C51001A86A1 /* Project object */;
+}
