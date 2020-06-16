@@ -27,7 +27,7 @@ struct ContentView: View {
             Text("DateComponentsFormatter").bold()
             Spacer()
             Form {
-                Section(header: Text("EditChild.Birthday.Title")) {
+                Section(header: Text("Reference Date")) {
                     DatePicker(selection: Binding<Date>(
                         get: { self.firstDate },
                         set: { self.firstDate = $0 }
@@ -44,6 +44,7 @@ struct ContentView: View {
                 Section(header: Text("Calendar.Units.List.title")) {
                     MultipleSelectionCalendarUnitList() { (newUnits) in
                     self.allowedUnits = newUnits
+                        print("### \(newUnits)")
                 }
             }
             Section {

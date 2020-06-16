@@ -55,7 +55,9 @@ struct MultipleSelectionRowCheckbox: View {
     var action: () -> Void
 
     var body: some View {
-        Toggle(isOn: $isSelected) { Text(String(describing: self.title)) }
+        Toggle(isOn: $isSelected) {
+            Text(String(describing: self.title))
+        }
     }
 }
 
